@@ -15,7 +15,7 @@ class Solution:
         #code here
         for i in range(len(arr)):
             min, index = self.select(arr, i)
-            print("r",min, index)
+            
             curr= arr[i]
             arr[i] = min
             arr[index] = curr
